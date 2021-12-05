@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-28 10:30:58 "/>
+        <attribute name="created" value="ZWR1YXI7TEFQVE9QLVNKREg2OERWOzIwMjEtMTEtMjg7IjEwOjA5OjM1ICI7Mjc4OQ=="/>
+        <attribute name="edited" value="ZWR1YXI7TEFQVE9QLVNKREg2OERWOzIwMjEtMTEtMjg7IjEwOjMwOjU4ICI7MTsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, media, somanotas" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="somanotas" expression="Nota1+Nota2+Nota3+Nota4"/>
+            <output expression="somanotas" newline="True"/>
+            <assign variable="media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

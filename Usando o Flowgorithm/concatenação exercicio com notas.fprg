@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-28 11:12:02 "/>
+        <attribute name="created" value="ZWR1YXI7TEFQVE9QLVNKREg2OERWOzIwMjEtMTEtMjg7IjEwOjA5OjM1ICI7Mjc4OQ=="/>
+        <attribute name="edited" value="ZWR1YXI7TEFQVE9QLVNKREg2OERWOzIwMjEtMTEtMjg7IjExOjEyOjAyICI7MjsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, media, somanotas" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;qual seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;SUA nota 1&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;SUA nota 2&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;SUA nota 3&quot;" newline="True"/>
+            <input variable="Nota3"/>
+            <output expression="&quot;SUA nota 4&quot;" newline="True"/>
+            <input variable="Nota4"/>
+            <assign variable="somanotas" expression="Nota1+Nota2+Nota3+Nota4"/>
+            <output expression="somanotas" newline="True"/>
+            <assign variable="media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="nome &amp; &quot; sua m&#233;dia &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
